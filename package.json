@@ -1,0 +1,19 @@
+{
+	"name": "jammytracker",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "tejasrao",
+	"license": "MIT",
+	"scripts": {
+		"start": "node api/app.js"
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"express": "^4.16.3",
+		"koa": "^2.5.2",
+		"koa-cors": "0.0.16",
+		"koa-router": "^7.4.0",
+		"request": "^2.88.0",
+		"request-promise": "^4.2.2"
+	}
+}
